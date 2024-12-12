@@ -13,9 +13,24 @@ make
 sudo make avail
 ```
 
-## Install Vice
+## Install Vice 3.8
 
-https://vice-emu.sourceforge.io/
+Head over to https://vice-emu.sourceforge.io/ and download the source distribution of [vice-3.8.tar.gz](https://sourceforge.net/projects/vice-emu/files/releases/vice-3.8.tar.gz/download). Next extract the tarball, change into the directory, install dependencies, build and install vice:
+
+```bash
+tar -xvzf vice-3.8.tar.gz 
+cd vice-3.8/
+sudo apt install build-essential flex byacc dos2unix xa65 libglib2.0-dev libsdl2-dev libsdl2-image-dev libcurl4-openssl-dev
+./configure 
+make
+sudo make install
+```
+
+Congratulations! You just compiled Vice 3.8 from source and are now ready to run vice by typing:
+
+```bash
+x64sc
+```
 
 ## Running the Program
 
