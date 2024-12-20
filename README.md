@@ -54,3 +54,5 @@ da65 file.prg --start-addr 0x801
 * https://cc65.github.io/doc/c64.html
 * https://nurpax.github.io/posts/2019-08-18-dirty-tricks-6502-programmers-use.html
 * https://skilldrick.github.io/easy6502/
+* https://www.atarimagazines.com/compute/issue40/cracking_the_kernal.php
+* https://archive.org/details/COMPUTEs_VIC-20_and_Commodore_64_Tool_Kit_Kernal_1985_COMPUTE_Publications_a
