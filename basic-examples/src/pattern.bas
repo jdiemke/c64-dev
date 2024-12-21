@@ -1,0 +1,1 @@
+10 print chr$(205+rnd(1)*2);:goto10
